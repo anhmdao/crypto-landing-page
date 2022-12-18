@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("../public/SVN-GilroyRegular.otf");
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url("../public/SVN-GilroyBold.otf");
+}
+
+
+body {
+  background-color: #FFF8F1;
+  margin: 0;
+}
+
+@media screen and (max-width: 575px) {}

@@ -1,0 +1,135 @@
+.footer {
+    padding-top: 81px;
+    // margin-left: 224px;
+    font-family: Gilroy;
+
+    .top {
+        display: flex;
+
+        .left {
+            padding-right: 30px;
+            width: 50%;
+
+            .logo {}
+
+            .text {
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    color: #807D7D;
+                }
+            }
+
+            .icon {
+                display: flex;
+
+                .icon-fb {
+                    font-size: 30px;
+                    width: 49px;
+                    height: 49px;
+                    margin: 0 10px 10px 0;
+                    text-align: center;
+                    line-height: 50px;
+                    border: 1px solid #807D7D;
+                    border-radius: 50%;
+                    color: #ffffff;
+                    display: inline-block;
+                }
+
+                .icon-tw {
+                    font-size: 30px;
+                    width: 49px;
+                    height: 49px;
+                    margin: 0 10px 20px 0;
+                    text-align: center;
+                    line-height: 50px;
+                    border: 1px solid #807D7D;
+                    border-radius: 50%;
+                    color: #ffffff;
+                    display: inline-block;
+                }
+
+                .icon-insta {
+                    font-size: 30px;
+                    width: 49px;
+                    height: 49px;
+                    margin: 0 10px 20px 0;
+                    text-align: center;
+                    line-height: 50px;
+                    border: 1px solid #807D7D;
+                    border-radius: 50%;
+                    color: #ffffff;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            margin-top: -30px;
+            padding-left: 100px;
+
+            // margin-left: 50px;
+            //margin-right: 120px;
+            .about-us {
+                .text-1 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 150%;
+                    letter-spacing: 0.016em;
+                    color: #0D0D0D;
+                }
+
+                .text-2 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 50px;
+                    color: #807D7D;
+                }
+            }
+
+            .support {
+                padding-left: 100px;
+                margin-top: -5px;
+                // margin-left: 30px;
+
+                .text-1 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 150%;
+                    letter-spacing: 0.016em;
+                    color: #0D0D0D;
+                }
+
+                .text-2 {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 50px;
+                    color: #807D7D;
+
+                }
+            }
+        }
+    }
+
+    .bottom {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: center;
+        color: #807D7D;
+
+    }
+
+}

@@ -1,0 +1,505 @@
+.contain {
+    background-color: #FFF8F1;
+    margin-top: 150px;
+    font-family: Gilroy;
+
+    .contain-1 {
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: contain;
+
+        .text {
+            max-width: 600px;
+
+            .combo-text {
+                .text-1 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 56px;
+                    line-height: 130%;
+                }
+
+                .text-2 {
+                    margin-top: 30px;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 150%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    color: #807D7D;
+                }
+
+            }
+
+            .combo-button {
+                display: flex;
+                margin-top: 80px;
+
+                .button {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 5px 10px;
+                    background: #F05830;
+                    width: 260px;
+                    height: 54px;
+                    border-radius: 5px;
+
+                    a {
+                        text-decoration: none;
+                        font-weight: 700;
+                        font-size: 18px;
+                        color: #fff;
+                    }
+                }
+
+                .combo-button-1 {
+                    display: flex;
+                    margin-left: 40px;
+                    align-items: center;
+                    cursor: pointer;
+
+                    .button-play {
+                        padding: 0;
+                    }
+
+                    .text {
+                        font-family: Gilroy-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 150%;
+                        color: black;
+                        margin-left: 10px;
+
+                    }
+                }
+
+            }
+
+            .combo-number {
+                display: flex;
+                margin: 0px;
+
+                .combo-number-1 {
+                    letter-spacing: 0.016em;
+                    margin: 0;
+
+                    .number-1 {
+                        font-family: Gilroy-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 150%;
+                        color: #236E57;
+                    }
+
+                    .text-1 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 180%;
+                        display: flex;
+                        align-items: center;
+                        color: #807D7D;
+                        position: relative;
+                        bottom: 60px;
+                    }
+                }
+
+                .combo-number-2 {
+                    margin-left: 90px;
+
+                    .number-2 {
+                        font-family: Gilroy-Bold;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 40px;
+                        line-height: 150%;
+                        color: #236E57;
+                    }
+
+                    .text-2 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 180%;
+                        display: flex;
+                        align-items: center;
+                        color: #807D7D;
+                        position: relative;
+                        bottom: 60px;
+                    }
+                }
+
+            }
+        }
+
+        .img {
+            display: none;
+
+            img {
+                height: 600px;
+                width: 712.03px;
+            }
+        }
+
+    }
+
+    .contain-2 {
+        margin-top: 100px;
+
+        .text {
+            .line {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 388.57px;
+                    height: 0px;
+                    border: 2px solid #F05830;
+                    transform: rotate(180deg);
+                }
+
+                p {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 120%;
+                    color: #236E57;
+                    white-space: nowrap;
+                }
+
+                .line-1 {
+                    margin-right: 20px;
+                }
+
+                .line-2 {
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .combo-img {
+            display: flex;
+
+            .box-img {
+                margin-top: 50px;
+                padding: 0 50px;
+            }
+
+            // .img-coinbase {
+            //     padding: 0 50px;
+            // }
+
+            // .img-blockchain {
+            //     padding: 0 50px;
+            // }
+
+            // .img-binance {
+            //     padding: 0 50px;
+            // }
+
+            // .img-bitmex {
+            //     padding: 0 50px;
+            // }
+        }
+    }
+
+    .contain-3 {
+        margin-top: 169px;
+
+        .text-1 {
+            font-family: Gilroy-Bold;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 150%;
+            letter-spacing: 0.016em;
+            color: #0D0D0D;
+            text-align: center;
+        }
+
+        .text-2 {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.016em;
+            color: #807D7D;
+            margin: 20px 400px;
+
+        }
+
+
+    }
+
+    .contain-4 {
+        align-items: center;
+        margin-top: 90px;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 135px;
+        // justify-content: space-between;
+
+        .box {
+            width: calc(100% / 3);
+        }
+
+        .item {
+            text-align: center;
+            padding: 80px 70px;
+
+            &:hover {
+                background: linear-gradient(156.79deg, rgba(255, 248, 241, 0.45) 0.44%, #FFF8F2 61.76%, #E0FBE5 134.86%);
+                box-shadow: 25px 25px 100px rgba(166, 161, 157, 0.2);
+                border-radius: 12px;
+
+            }
+
+            .text-1 {
+                h2 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 1000;
+                    font-size: 24px;
+                    line-height: 150%;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    color: #0D0D0D;
+                }
+            }
+
+            .text-2 {
+                p {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 150%;
+                    text-align: center;
+                    letter-spacing: 0.016em;
+                    color: #807D7D;
+                }
+            }
+        }
+
+
+
+
+    }
+
+    .contain-5 {
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: contain;
+        display: flex;
+        margin-top: 0;
+
+        .img {
+            display: none;
+            width: 45%;
+
+            img {
+                height: 581px;
+                width: 600px;
+            }
+        }
+
+        .text {
+            width: calc(100%/2);
+            float: right;
+
+            .text-1 {
+                h2 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 1000;
+                    font-size: 48px;
+                    line-height: 150%;
+                    letter-spacing: 0.016em;
+                    color: #0D0D0D;
+                }
+            }
+
+            .text-2 {
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 180%;
+                    display: flex;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    text-align: justify;
+                    color: #807D7D;
+
+                }
+            }
+
+            .button {
+                margin-top: 86px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 5px 10px;
+                width: 260px;
+                height: 54px;
+                border-radius: 5px;
+                border: 1px solid #F05830;
+
+                a {
+                    text-decoration: none;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #F05830;
+                }
+            }
+        }
+    }
+
+    .contain-6 {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: right center;
+        margin-top: 100px;
+        display: flex;
+
+        .text {
+            width: 50%;
+
+            .text-1 {
+                margin: 0;
+                padding: 0;
+
+                h1 {
+                    font-family: Gilroy-Bold;
+                    font-style: normal;
+                    font-weight: 1200;
+                    font-size: 48px;
+                    line-height: 150%;
+                    letter-spacing: 0.016em;
+                    color: #0D0D0D;
+                }
+            }
+
+            .text-2 {
+                margin-right: 60px;
+                ;
+
+                p {
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 180%;
+                    align-items: center;
+                    letter-spacing: 0.016em;
+                    color: #807D7D;
+                }
+
+            }
+
+            .logo {
+                display: flex;
+
+                .logo1 {
+                    width: 180px;
+                    height: 56px;
+                }
+
+                .logo2 {
+                    margin-left: 20px;
+                    width: 180px;
+                    height: 56px;
+                }
+            }
+        }
+
+        .img {
+            display: none;
+            //width: 45%;
+
+        }
+    }
+
+    .contain-7 {
+        align-items: center;
+
+        .text-1 {
+            color: white;
+
+            h1 {
+                font-family: Gilroy-Bold;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 150%;
+                text-align: center;
+                letter-spacing: 0.016em;
+            }
+        }
+
+        .text-2 {
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 150%;
+            align-items: center;
+            text-align: center;
+            letter-spacing: 0.016em;
+            color: #E6EFEC;
+        }
+
+        .find-out {
+            margin-top: 70px;
+            display: flex;
+            bottom: 50px;
+            align-items: center;
+            justify-content: center;
+
+            .textbox {
+                input[type="text"] {
+                    border: 1px solid #ccc;
+                    background-color: #236E57;
+                    padding: 25px 180px;
+                    align-content: center;
+                }
+
+                ::placeholder {
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 18px;
+                    line-height: 21px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                }
+            }
+
+            .submit {
+                align-items: center;
+
+                input[type="submit"] {
+                    padding: 25px 40px;
+                    border-style: none;
+                    // gap: 8px;
+                    background: #F05830;
+                    border-radius: 0px 5px 5px 0px;
+                    cursor: pointer;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 18px;
+                    line-height: 22px;
+                    letter-spacing: 0.05em;
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+}
